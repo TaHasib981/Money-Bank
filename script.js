@@ -2,13 +2,10 @@
 document.getElementById('calculate-btn').addEventListener('click',function(){
    
     const income = document.getElementById('income-input').value
-    const incomeFloat = parseFloat(income)
     const food = document.getElementById('food-input').value
     const rent = document.getElementById('rent-input').value
     const clothes = document.getElementById('clothes-input').value 
 
-    // const myIncomefloat = parseFloat(myIncomeValue)
- 
 
     if(income < 0 || food < 0 || rent < 0 || clothes < 0 ){
         alert('please ensure the number possitive that you entered !!')
